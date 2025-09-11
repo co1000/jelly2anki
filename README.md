@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/rebec0/static-assets/main/sin_fondo_icono.png" alt="Logo de Jelly2Anki" width="150">
 </p>
 
-Jelly2Anki es un sistema que transforma tu servidor de [Jellyfin](https://jellyfin.org/) en una herramienta de aprendizaje. Añade una interfaz de minería de frases directamente sobre el reproductor de video, permitiéndote crear tarjetas para Anki a partir de cualquier película o serie de tu colección.
+**Jelly2Anki** es un sistema que transforma tu servidor de [Jellyfin](https://jellyfin.org/) en una herramienta de aprendizaje. Añade una interfaz de minería de frases directamente sobre el reproductor de video, permitiéndote crear tarjetas para Anki a partir de cualquier película o serie de tu colección.
 
 El add-on funciona como el backend (el motor) del sistema, manejando el análisis de video, el corte de clips en formato **WebM** y la comunicación con Anki en segundo plano.
 
