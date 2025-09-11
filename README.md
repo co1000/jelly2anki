@@ -98,4 +98,4 @@ El sistema está optimizado para crear tarjetas de alta calidad para Anki de for
 
 **Reproductor de video de Jellyfin**
 <img src="https://raw.githubusercontent.com/rebec0/static-assets/main/interfaz_inicial.jpg" alt="Interfaz Principal de Jelly2Anki en Jellyfin" width="100%">
-<img src="https://archive.org/download/chrome_MhCT9xUopU/chrome_MhCT9xUopU.gif" alt="Interfaz Principal de Jelly2Anki" width="100%">
+<img src="https://github.com/rebec0/static-assets/releases/download/v1.0.0-assets/chrome_MhCT9xUopU.gif" alt="Interfaz Principal de Jelly2Anki" width="100%">
