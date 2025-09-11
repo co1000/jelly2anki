@@ -137,3 +137,27 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Dependencias de Node
+node_modules/
+
+# Archivos de Python generados
+__pycache__/
+*.pyc
+
+# Archivos de build de PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de entorno (contienen claves secretas, si las tuvieras)
+.env
