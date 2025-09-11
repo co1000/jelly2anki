@@ -85,7 +85,17 @@ El sistema está optimizado para crear tarjetas de alta calidad para Anki de for
 *   **Minado por Fusión (`X` + `R`):** Permite seleccionar múltiples diálogos consecutivos y combinarlos en una sola tarjeta, ideal para conversaciones o contexto extendido.
 *   **Formato `.webm`:** Todos los clips de video se generan en formato `.webm`, que ofrece un buen equilibrio entre calidad y tamaño de archivo, optimizado para Anki.
 ---
-### **Notas Importantes (Versión Beta)**
+### **Notas Importantes**
 
-*   **Estado del Proyecto:** Jelly2Anki está en desarrollo activo y se considera una **versión Beta**. Puede contener bugs. Por favor, si encuentras algún problema, repórtalo en la sección de "Issues" de GitHub.
-*   **Compatibilidad:** Este sistema está diseñado para funcionar con la **interfaz web por defecto de Jellyfin**. No se garantiza la compatibilidad con **skins de terceros** o temas de CSS personalizados, ya que pueden alterar la estructura de la página que la extensión necesita para funcionar.
+ * Jelly2Anki se encuentra en fase **Beta** y está en desarrollo activo. Si encuentras algún problema, por favor, repórtalo en **[GitHub](https://github.com/co1000/jelly2anki/issues)**.
+* La traducción automática de subtítulos actualmente se realiza con **Google Translate**, por lo que la calidad puede ser limitada.
+* Este sistema está diseñado para funcionar con la **interfaz web por defecto** de Jellyfin. No se garantiza la compatibilidad con skins de terceros o temas de CSS personalizados, ya que pueden alterar la estructura de la página que la extensión necesita para funcionar.
+* Al reproducir un video sin un archivo .srt externo, el sistema extraerá automáticamente una pista integrada; la calidad de este subtítulo depende del archivo original. Si prefieres usar otro, simplemente **reemplaza el archivo .srt generado** en la carpeta del video por uno de tu elección.
+---
+### **Demostraciones**
+
+<img src="https://archive.org/download/chrome_D06hgBtAWq/chrome_D06hgBtAWq.gif" alt="Proceso de descarga, instalación y creación de tarjetas en Anki" width="60%">
+
+**Reproductor de video de Jellyfin**
+<img src="https://raw.githubusercontent.com/rebec0/static-assets/main/interfaz_inicial.jpg" alt="Interfaz Principal de Jelly2Anki en Jellyfin" width="100%">
+<img src="https://archive.org/download/chrome_MhCT9xUopU/chrome_MhCT9xUopU.gif" alt="Interfaz Principal de Jelly2Anki" width="100%">
