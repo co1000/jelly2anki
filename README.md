@@ -63,28 +63,9 @@ El sistema elimina la necesidad de gestionar archivos de subtítulos manualmente
 #### Análisis de Vocabulario y Resaltado i+1
 El núcleo de Jelly2Anki es su sistema para resaltar solo el vocabulario que es relevante para tu aprendizaje. En lugar de marcar todas las palabras "raras", utiliza un sistema de dos colores para darte información precisa:
 
-<table>
-  <tr>
-    <td width="15" valign="top">
-      <img src="https://placehold.co/4x100/fda200/fda200.png" alt="Línea naranja">
-    </td>
-    <td valign="top">
-      <strong>Naranja (Palabra Sugerida):</strong> Una palabra se marca en naranja si está por encima de tu nivel de vocabulario y el sistema no tiene constancia de que la conozcas. Es una sugerencia del sistema que dice: "Probablemente no conozcas esta palabra, podría ser un buen candidato para minar".
-    </td>
-  </tr>
-  <tr>
-    <td width="15" valign="top">
-      <img src="https://placehold.co/4x100/45a1ff/45a1ff.png" alt="Línea azul">
-    </td>
-    <td valign="top">
-      <strong>Azul (Palabra en Aprendizaje):</strong> Una vez que minas una palabra (creando una tarjeta Anki con ella), se vuelve azul. Este color te ayuda a reconocer el vocabulario que estás estudiando activamente cada vez que aparece en un nuevo contexto.
-    </td>
-  </tr>
-</table>
+*   🟧 **Naranja (Palabra Sugerida):** Una palabra se marca en naranja si está por encima de tu nivel de vocabulario y el sistema no tiene constancia de que la conozcas. Es una sugerencia del sistema que dice: "Probablemente no conozcas esta palabra, podría ser un buen candidato para minar".
 
-
-
-
+*   🟦 **Azul (Palabra en Aprendizaje):** Una vez que minas una palabra (creando una tarjeta Anki con ella), se vuelve azul. Este color te ayuda a reconocer el vocabulario que estás estudiando activamente cada vez que aparece en un nuevo contexto.
 
 
 
