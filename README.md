@@ -1,4 +1,8 @@
-Jelly2Anki es un sistema que transforma tu servidor de Jellyfin en una herramienta de aprendizaje. Añade una interfaz de minería de frases directamente sobre el reproductor de video, permitiéndote crear tarjetas para Anki a partir de cualquier película o serie de tu colección.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rebec0/static-assets/main/sin_fondo_icono.png" alt="Logo de Jelly2Anki" width="150">
+</p>
+
+Jelly2Anki es un sistema que transforma tu servidor de [Jellyfin](https://jellyfin.org/) en una herramienta de aprendizaje. Añade una interfaz de minería de frases directamente sobre el reproductor de video, permitiéndote crear tarjetas para Anki a partir de cualquier película o serie de tu colección.
 
 El add-on funciona como el backend (el motor) del sistema, manejando el análisis de video, el corte de clips en formato **WebM** y la comunicación con Anki en segundo plano.
 
@@ -10,11 +14,11 @@ La instalación completa requiere 3 componentes.
 **1. Requisitos Previos:**
 *   **AnkiConnect:** [Instalar desde AnkiWeb](https://ankiweb.net/shared/info/2055492159).
 *   **FFmpeg:** Debe estar instalado en tu sistema y accesible desde el PATH. [Descargar FFmpeg](https://ffmpeg.org/download.html).
-*   **Tipo de Nota:** Un mazo con el tipo de nota necesario. `https://ankiweb.net/shared/info/1655427804?cb=1757575227535`
+*   **Tipo de Nota:** Un mazo con el tipo de nota necesario. `https://ankiweb.net/shared/info/1655427804`
 
 **2. Instalar el Backend (Este Add-on):**
 1.  En Anki, ve a `Herramientas > Complementos > Obtener complementos...`
-2.  Introduce el código: **`[código de AnkiWeb aquí]`**.
+2.  Introduce el código: **`417377357`**.
 3.  Reinicia Anki.
 4.  Ve a `Herramientas > Jellyfin Miner Backend Control` y haz clic en **`▶ Iniciar Servidores`**.
 
@@ -59,9 +63,31 @@ El sistema elimina la necesidad de gestionar archivos de subtítulos manualmente
 #### Análisis de Vocabulario y Resaltado i+1
 El núcleo de Jelly2Anki es su sistema para resaltar solo el vocabulario que es relevante para tu aprendizaje. En lugar de marcar todas las palabras "raras", utiliza un sistema de dos colores para darte información precisa:
 
-*   <span style="color: #fda200;">**Naranja (Palabra Sugerida):**</span> Una palabra se marca en naranja si está por encima de tu nivel de vocabulario y el sistema no tiene constancia de que la conozcas. Es una sugerencia del sistema que dice: "Probablemente no conozcas esta palabra, podría ser un buen candidato para minar".
+<table>
+  <tr>
+    <td width="15" valign="top">
+      <img src="https://placehold.co/4x100/fda200/fda200.png" alt="Línea naranja">
+    </td>
+    <td valign="top">
+      <strong>Naranja (Palabra Sugerida):</strong> Una palabra se marca en naranja si está por encima de tu nivel de vocabulario y el sistema no tiene constancia de que la conozcas. Es una sugerencia del sistema que dice: "Probablemente no conozcas esta palabra, podría ser un buen candidato para minar".
+    </td>
+  </tr>
+  <tr>
+    <td width="15" valign="top">
+      <img src="https://placehold.co/4x100/45a1ff/45a1ff.png" alt="Línea azul">
+    </td>
+    <td valign="top">
+      <strong>Azul (Palabra en Aprendizaje):</strong> Una vez que minas una palabra (creando una tarjeta Anki con ella), se vuelve azul. Este color te ayuda a reconocer el vocabulario que estás estudiando activamente cada vez que aparece en un nuevo contexto.
+    </td>
+  </tr>
+</table>
 
-*   <span style="color: #45a1ff;">**Azul (Palabra en Aprendizaje):**</span> Una vez que minas una palabra (creando una tarjeta Anki con ella), se vuelve azul. Este color te ayuda a reconocer el vocabulario que estás estudiando activamente cada vez que aparece en un nuevo contexto.
+
+
+
+
+
+
 
 Este sistema se alimenta de varias fuentes de datos para una máxima precisión:
 *   Listas de frecuencia de palabras (CEFR A1-C2).
