@@ -94,7 +94,7 @@ El sistema está optimizado para crear tarjetas de alta calidad para Anki de for
 ---
 ### **Demostraciones**
 
-<img src="https://archive.org/download/chrome_D06hgBtAWq/chrome_D06hgBtAWq.gif" alt="Proceso de descarga, instalación y creación de tarjetas en Anki" width="60%">
+<img src="https://github.com/rebec0/static-assets/releases/download/v1.0.0-assets/chrome_D06hgBtAWq.gif" alt="Proceso de descarga, instalación y creación de tarjetas en Anki" width="60%">
 
 **Reproductor de video de Jellyfin**
 <img src="https://raw.githubusercontent.com/rebec0/static-assets/main/interfaz_inicial.jpg" alt="Interfaz Principal de Jelly2Anki en Jellyfin" width="100%">
