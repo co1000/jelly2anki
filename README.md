@@ -14,7 +14,7 @@ La instalación completa requiere 3 componentes.
 **1. Requisitos Previos:**
 *   **AnkiConnect:** [Instalar desde AnkiWeb](https://ankiweb.net/shared/info/2055492159).
 *   **FFmpeg:** Debe estar instalado en tu sistema y accesible desde el PATH. [Descargar FFmpeg](https://ffmpeg.org/download.html).
-*   **Tipo de Nota:** Un mazo con el tipo de nota necesario. `https://ankiweb.net/shared/info/1655427804`
+*   **Tipo de Nota:** Un mazo con el tipo de nota necesario. `https://ankiweb.net/shared/info/1582894460`
 
 **2. Instalar el Backend (Este Add-on):**
 1.  En Anki, ve a `Herramientas > Complementos > Obtener complementos...`
